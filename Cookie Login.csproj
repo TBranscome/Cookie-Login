@@ -69,7 +69,6 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="LoginCookies.aspx" />
-    <Content Include="MainPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -82,13 +81,6 @@
     </Compile>
     <Compile Include="LoginCookies.aspx.designer.cs">
       <DependentUpon>LoginCookies.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="MainPage.aspx.cs">
-      <DependentUpon>MainPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MainPage.aspx.designer.cs">
-      <DependentUpon>MainPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
